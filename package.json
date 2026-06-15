@@ -1,0 +1,19 @@
+{
+  "name": "robonyan",
+  "version": "1.0.0",
+  "description": "Robonyan — Bot Discord Yo-kai | Créé par ᴠʏᴢᴛᴏʀ",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "deploy:guild": "node src/deploy-guild.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

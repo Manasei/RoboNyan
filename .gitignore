@@ -1,0 +1,6 @@
+node_modules/
+.env
+data/inventory/
+data/bag/
+data/economy.json
+*.log
